@@ -118,6 +118,7 @@ export default {
   cursor: pointer;
   padding: 5px;
   width: 100%;
+  color: gray;
 }
 .container .paydues {
   font-size: 15px;
