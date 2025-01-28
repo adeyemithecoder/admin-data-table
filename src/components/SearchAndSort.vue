@@ -73,7 +73,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 25px;
+  padding: 0 5px;
 }
 
 .wrapper {
@@ -91,7 +91,9 @@ export default {
   margin: 10px 0;
   border-radius: 5px;
   outline: none;
-  border: 2px solid rgb(220, 210, 210);
+  border: none;
+  background-color: rgb(248, 244, 244);
+  font-weight: bold;
 }
 .sorting-options {
   position: relative;

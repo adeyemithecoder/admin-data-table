@@ -2,9 +2,10 @@
 import { computed } from 'vue'
 import { useUserStore } from '@/stores/userStore'
 import TableRow from './TableRow.vue'
+import SearchAndSort from './SearchAndSort.vue'
 
 export default {
-  components: { TableRow },
+  components: { TableRow, SearchAndSort },
   setup() {
     const userStore = useUserStore()
 
@@ -24,6 +25,8 @@ export default {
 
 <template>
   <div class="admin-data-table">
+    <SearchAndSort />
+
     <table class="table">
       <thead>
         <tr>
@@ -44,6 +47,14 @@ export default {
 </template>
 
 <style>
+.admin-data-table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
 .table {
   width: 100%;
 }

@@ -1,12 +1,8 @@
 <script>
-import SearchAndSort from './SearchAndSort.vue'
 import { computed } from 'vue'
 import { useUserStore } from '@/stores/userStore'
 
 export default {
-  components: {
-    SearchAndSort,
-  },
   setup() {
     const userStore = useUserStore()
 
@@ -45,8 +41,6 @@ export default {
 
       <span>Total Payable Amount: ${{ totalPayable }} USD</span>
     </div>
-
-    <SearchAndSort />
   </div>
 </template>
 
