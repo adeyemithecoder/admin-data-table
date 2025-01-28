@@ -87,7 +87,7 @@ export default {
 }
 .search-bar input {
   width: 100%;
-  padding: 10px;
+  padding: 15px;
   margin: 10px 0;
   border-radius: 5px;
   outline: none;
