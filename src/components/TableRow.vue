@@ -147,18 +147,24 @@ export default {
 
 /* Payment status styles */
 .payment-status .overdue {
-  background-color: #ffe4e4; /* Light red background */
-  color: #d32f2f; /* Red text */
+  background-color: #ffe4e4;
+  border-radius: 10px;
+  padding: 0 5px;
+  color: #d32f2f;
 }
 
 .payment-status .paid {
-  background-color: #e6f4ea; /* Light green background */
-  color: #388e3c; /* Green text */
+  background-color: #e6f4ea;
+  color: #388e3c;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 
 .payment-status .unpaid {
-  background-color: #fff4e5; /* Light orange background */
-  color: #ff9800; /* Orange text */
+  background-color: #fff4e5;
+  color: #ff9800;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 
 /* Dot styles */
@@ -172,15 +178,15 @@ export default {
 }
 
 .payment-status .overdue::before {
-  background-color: #d32f2f; /* Red dot */
+  background-color: #d32f2f;
 }
 
 .payment-status .paid::before {
-  background-color: #388e3c; /* Green dot */
+  background-color: #388e3c;
 }
 
 .payment-status .unpaid::before {
-  background-color: #ff9800; /* Orange dot */
+  background-color: #ff9800;
 }
 
 .payment-date {
