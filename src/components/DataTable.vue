@@ -48,7 +48,7 @@ export default {
 
 <style>
 .admin-data-table {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   padding: 16px;
   background-color: #fff;

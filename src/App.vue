@@ -5,9 +5,3 @@ import AdminDashboard from './pages/AdminDashboard.vue'
 <template>
   <div class="app"><AdminDashboard /></div>
 </template>
-
-<style>
-.app {
-  width: 100vw;
-}
-</style>
